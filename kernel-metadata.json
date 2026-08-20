@@ -1,0 +1,15 @@
+{
+  "id": "ahmednoureldin4474/financial-accounting-and-cash-flow-analytics",
+  "title": "Financial Accounting and Cash Flow Analytics",
+  "code_file": "Financial_Accounting_Notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "ahmednoureldin4474/financial-accounting-ledger-dataset"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

@@ -1,49 +1,64 @@
-# Financial Accounting Analytics: Ledger Screening & Cash Flow Forecasting
+# Financial Accounting Analytics
 
-**Author:** Ahmed Noureldin  
-**Affiliation:** Accounting Scholar (Year 3), New Cairo Higher Institute | Ex-CIB Data Analytics Intern  
-**Email:** ahmedn4474@gmail.com | **GitHub:** [@ahmedn4474-art](https://github.com/ahmedn4474-art/Financial-Accounting-Analytics)  
-**Domain:** Financial Accounting, Treasury Liquidity & Cash Flow Management  
-**Dataset:** General Ledger Accounting Transactions Dataset (100,000 transaction records across accounts and fiscal periods)  
+A financial data project focused on analyzing accounting records, cash-flow patterns, and operational trends using data-driven methods.
 
----
+## Overview
 
-## 1. Executive Summary & Problem Context
+This project explores financial transaction and ledger behavior to support better understanding of liquidity, cash movement, and unusual accounting activity. It is designed to combine accounting knowledge with analytics to extract practical business insights from large-scale financial data.
 
-Corporate controllers and treasury teams require quantitative oversight to maintain general ledger integrity and ensure operational liquidity. This project delivers time-series liquidity forecasting (ADF test & Holt-Winters) and general ledger screening for non-standard transaction variances.
+## Problem Statement
 
----
+Accounting teams often work with large volumes of transactional data, making it difficult to quickly identify anomalies, trend shifts, or potential operational issues. There is strong value in using structured analysis to improve monitoring and decision-making.
 
-## 2. Project Structure
+## Objectives
 
-`	ext
-|-- data/                    # Dataset files
-|-- Financial_Fraud_Notebook.ipynb   # Executed Jupyter Notebook with complete outputs
-|-- requirements.txt         # Python dependencies
-|-- README.md                # English technical documentation
-|-- README_AR.md             # التوثيق الفني باللغة العربية
-`
+- Explore accounting and ledger data
+- Identify patterns in financial activity
+- Monitor liquidity and cash movement trends
+- Highlight operational and accounting anomalies
+- Present findings with a business-oriented lens
 
----
+## Tech Stack
 
-## 3. How to Run Locally
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- SQL-ready workflow logic
 
-1. **Clone this repository:**
-   `ash
-   git clone https://github.com/ahmedn4474-art/Financial-Accounting-Analytics.git
-   cd Project4_Financial_Accounting
-   `
+## Methodology
 
-2. **Install dependencies:**
-   `ash
-   pip install -r requirements.txt
-   `
+1. Dataset review and preprocessing
+2. Ledger and account behavior analysis
+3. Trend detection and anomaly review
+4. Financial interpretation and narrative building
+5. Documentation of actionable insights
 
-3. **Launch Jupyter Notebook:**
-   `ash
-   jupyter notebook Financial_Fraud_Notebook.ipynb
-   `
+## Business Impact
 
----
+This project shows how accounting and financial data can be analyzed to support stronger internal controls, better treasury awareness, and more informed resource planning.
 
-*Authored by Ahmed Noureldin Mohamed — Applied Quantitative & Financial Data Analytics.*
+## Repository Structure
+
+- `data/` — financial datasets
+- `Financial_Fraud_Notebook.ipynb` — notebook analysis
+- `requirements.txt` — dependencies
+- `README.md` — documentation
+
+## Run Locally
+
+```bash
+git clone https://github.com/ahmedn4474-art/Financial-Accounting-Analytics.git
+cd Financial-Accounting-Analytics
+pip install -r requirements.txt
+jupyter notebook Financial_Fraud_Notebook.ipynb
+```
+
+## Contact
+
+- GitHub: https://github.com/ahmedn4474-art
+- Email: ahmedn4474@gmail.com
+
+"Financial insight becomes valuable when it leads to action."
